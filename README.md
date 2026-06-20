@@ -1,6 +1,11 @@
 # fix-flatpak-theming
 Specifically in Plasma 6
 
+## Install `org.gtk.Gtk3theme.Breeze`
+```sh
+flatpak install flathub org.gtk.Gtk3theme.Breeze
+```
+
 ## Make theme dirs accessable
 ```sh
 sudo flatpak override --filesystem=$HOME/.themes
